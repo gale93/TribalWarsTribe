@@ -80,7 +80,7 @@
         <Border BorderBrush="Black" BorderThickness="0 1 0 1" Background="Yellow" Height="20" Grid.Row="3" />
 
         <DockPanel Margin="10"  Grid.Row="4">
-            <TextBlock Text="Add Villago to Support:" FontSize="16"/>
+            <TextBlock Text="Add Village to Support:" FontSize="16"/>
             <TextBox x:Name="tbVillageToSupport" Text="" MinWidth="140" Margin="10,0,0,0"/>
             <TextBox x:Name="tbPacketVillageToSupport" Text="" MinWidth="30" Margin="10,0,0,0"/>
             <Button x:Name="btnUpdateVillageToSupport" Content="Update Village to support" Margin="10,0,0,0" Click="btnUpdateVillageToSupport_Click" />
