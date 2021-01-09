@@ -34,8 +34,8 @@ namespace TribalWarsTribe
 
         private void load()
         {
-            loadFromWeb($"http://{world}.tribalwars.net/map/village.txt.gz", "village.txt.gz");
-            loadFromWeb($"http://{world}.tribalwars.net/map/player.txt.gz", "player.txt.gz");
+            loadFromWeb($"http://{world}/map/village.txt.gz", "village.txt.gz");
+            loadFromWeb($"http://{world}/map/player.txt.gz", "player.txt.gz");
         }
 
         private void decompress(FileInfo fileToDecompress)
